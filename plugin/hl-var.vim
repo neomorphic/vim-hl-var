@@ -87,7 +87,7 @@ if (!exists("g:hlvarnoauto") || g:hlvarnoauto == 1)
     if (exists("g:hlvarhl"))
         exe "highlight VarHl  " . g:hlvarhl
     else
-        highlight VarHl ctermbg=black guifg=#ff0000 guibg=#000000 ctermfg=LightRed gui=bold
+        highlight VarHl ctermbg=black guifg=#00ff00 guibg=#000000 ctermfg=Green gui=bold
     endif
 endif
 
